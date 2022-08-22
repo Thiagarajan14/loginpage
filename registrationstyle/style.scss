@@ -1,0 +1,86 @@
+$font-stack: Helvetica, sans-serif;
+$color :rgb(247, 199, 95) ;
+
+body {
+    font: 100% $font-stack;
+}
+* {
+  box-sizing: border-box;
+}
+h1{
+  margin-top: 0px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 22px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(134, 45, 235);
+  font-family: $font-stack
+}
+input[type=text], input[type=password] 
+{
+  width: 100%;
+  padding: 10px;
+  margin: 1px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #ffffff;
+}
+
+.svg{
+  width:100px;
+  height: 100px;
+  float: right;
+}
+
+button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  font-weight: bold;
+}
+
+.signupbtn {
+  float: right;
+  width: 20%;
+}
+
+.signupbtn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.container {
+    padding: 5px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    width: 700px;
+    height: 750px;
+    box-shadow: 0px 2px 2px 0px  rgb(26, 25, 25);
+    margin: 0 auto;
+    background-color: $color;
+    
+}
+label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal-content {
+  margin: 1% auto 15% auto; 
+  width: 100%;
+}
+
+#msg{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-align: center;
+}
+.login{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}

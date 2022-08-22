@@ -1,0 +1,95 @@
+$font-stack: Helvetica, sans-serif;
+$color :rgb(247, 199, 95) ;
+
+body {
+    font: 100% $font-stack;
+}
+/* Container */
+.container{
+    width:40%;
+    margin: 0 auto;
+}
+
+/* Login */
+#login{
+    border: 3px solid gray;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 2px 2px 0px  rgb(26, 25, 25);
+    margin: 0 auto;
+    background-color: $color;
+
+}
+
+#login h1{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 47px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(134, 45, 235);
+    font-family: $font-stack
+}
+
+#svg{
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+
+#login div{
+    clear: both;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#login .textbox{
+    width: 90%;
+    padding: 7px;
+}
+#login .subbtn{
+    background-color:rgb(248, 248, 248);
+    color: rgb(0, 0, 0);
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float: right;
+}
+#login .subbtn:hover {
+    background-color: #4967ec;
+    color: white;
+  }
+  
+#login label{
+    font-size: 25px;
+    font-weight: bold;
+}
+#login .reg{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    float: left;
+}
+
+#message{
+    width:100%;
+    text-align:center;
+    color:rgb(10, 10, 10);
+    font-size: 30px;
+}
+/* media */
+@media screen and (max-width:720px){
+    .container{
+        width: 100%;
+    }
+    #login{
+        width: 100%;
+    }
+}
